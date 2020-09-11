@@ -1,8 +1,9 @@
 package com.qosoft.designpatterns.creational.factorymethod;
 
-public class GooglePayment implements Payment {
+public class CardPayment implements Payment {
+
     @Override
     public String doPayment() {
-        return "Pagando con Google Payment";
+        return "Pagando con Tarjeta de Crédito";
     }
 }
